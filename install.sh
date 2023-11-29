@@ -2,7 +2,7 @@
 set -e
 
 ARCH=aarch64
-DOCKER_VERSION=24.10.7
+DOCKER_VERSION=24.0.7
 DOCKER_DIR=/volume1/@docker
 
 echo "下载 docker $DOCKER_VERSION-$ARCH"
