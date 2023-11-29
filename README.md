@@ -42,7 +42,7 @@ vi /etc/docker/daemon.json
 
 ## 一键安装脚本（仅适用于armv8架构）
 ```bash
-wget -qO- https://github.com/412999826/docker-arm-based-synology/raw/main/install.sh| bash
+wget -qO- https://github.com/g0spel/docker-arm-based-synology/raw/main/install.sh| bash
 ```
 
 ## 运行docker
