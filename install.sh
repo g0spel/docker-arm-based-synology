@@ -16,6 +16,7 @@ mkdir -p /etc/docker
 cat <<EOT > /etc/docker/daemon.json
 {
   "storage-driver": "vfs",
+  "bridge": "none",
   "iptables": false,
   "data-root": "$DOCKER_DIR"
 }
