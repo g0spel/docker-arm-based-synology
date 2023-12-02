@@ -33,6 +33,7 @@ vi /etc/docker/daemon.json
 ```bash
 {
   "storage-driver": "vfs",
+  "bridge": "none",
   "iptables": false,
   "data-root": "/volume1/@docker"
 }
